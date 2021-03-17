@@ -1,3 +1,7 @@
+*:focus{
+    outline:none;
+}
+
 a {
     text-decoration: none;
 }
@@ -44,22 +48,6 @@ ul li ul {
     transition: all 0.5s ease;
     left: 0;
     display: none;
-}
-
-ul li:hover a{
-    text-decoration: underline;
-}
-
-ul li:hover ul a{
-    text-decoration: none;
-}
-
-ul li ul li:hover a{
-    text-decoration: underline;
-}
-
-ul li a.active{
-    text-decoration: underline;
 }
 
 ul li:hover > ul,
